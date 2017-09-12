@@ -1,0 +1,144 @@
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #515f67;
+}
+
+.wrapper {
+	background-color: #ffffff;
+	margin: 0;
+	width: 100%;
+}
+
+
+.wrapper__title {
+	padding-top: 8vw;
+    text-indent: 10vw;
+    width: 100%;
+    background-color: #515f67;
+    font-family: 'Segoe UI', arial;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 6vw;
+    padding-bottom: 9vw;
+}
+
+.wrapper__works {
+	margin: 0;
+	margin-top: 5vw;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 0;
+}
+
+.work__item,
+.work__item:hover,
+.work__item:visited {
+    position: relative;
+    height: 80vw;
+    width: 80vw;
+    margin-bottom: 8vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: nowrap;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.work__item:last-child {
+	margin-right: 0;
+}
+
+.work__item:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    content: '';
+    background-color: rgba(81, 95, 103, 0.26);
+    border-radius: 1vw;
+}
+
+.work__item:hover::after {
+    background-color: rgba(81, 95, 103, 0);
+    border-radius: 1vw;
+}
+
+.converter {
+    background-image: url("../img/covers/converter-cover.png");
+}
+
+.weather {
+    background-image: url("../img/covers/weather-cover.png");
+}
+
+.abby {
+    background-image: url("../img/covers/abby-cover.png");
+}
+
+.tbd:after {
+    background-image: url("../img/icons/icon-plus-white.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.links-wrapper {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 18%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 0 0 1vw 1vw;
+    z-index: 100;
+}
+
+.work__item:hover > .links-wrapper {
+    background-color: rgba(81, 95, 103, 0.7);
+}
+
+.link {
+    display: block;
+    height: 8vw;
+    width: 8vw;
+    background-size: contain;
+    margin: auto 1vw;
+    cursor: pointer;
+}
+
+.chrome {
+    background-image: url("../img/icons/chrome-icon.png");
+}
+
+.github {
+    background-image: url("../img/icons/github-icon.png");
+}
+
+.slides {
+    background-image: url("../img/icons/slides-icon.png");
+}
+
+.work__item:hover >.links-wrapper > .chrome {
+    background-image: url("../img/icons/chrome-icon-white.png");
+    cursor: pointer;
+}
+
+.work__item:hover >.links-wrapper > .github {
+    background-image: url("../img/icons/github-icon-white.png");
+}
+
+.work__item:hover >.links-wrapper > .slides {
+    background-image: url("../img/icons/slides-icon-white.png");
+}
+
+
