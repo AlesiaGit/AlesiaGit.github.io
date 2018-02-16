@@ -23,6 +23,7 @@ body {
 	color: #515f67;
 	font-size: 30px;
 	padding-bottom: 80px;
+
 }
 
 .wrapper__works {
@@ -32,6 +33,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     padding-bottom: 80px;
+    padding-top: 60px;
 }
 
 .work__item,

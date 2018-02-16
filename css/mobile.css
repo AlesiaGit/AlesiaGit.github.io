@@ -33,6 +33,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     padding-bottom: 0;
+    padding-top: 5vh;
 }
 
 .work__item,
