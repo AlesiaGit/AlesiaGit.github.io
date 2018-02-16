@@ -83,6 +83,10 @@ body {
     background-image: url("../img/covers/abby-cover.png");
 }
 
+.cookbook {
+    background-image: url("../img/covers/cookbook-cover.png");
+}
+
 .tbd:after {
     background-image: url("../img/icons/icon-plus-white.png");
     background-repeat: no-repeat;
